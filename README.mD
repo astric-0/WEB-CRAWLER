@@ -17,7 +17,7 @@ To Crawl With given url
 > node server.js -d MainDirName -u www.example.com
 
 To Set Milli Seconds and Request Count.
-> node server.js -d MainDirName -u www.example.com -M 10000 -C 6
+> node server.js -d MainDirName -u www.example.com -M 10000 -C 6 <br />
 this sets the crawler to send 6 requests in 10000 milliseconds (= 10 seconds)
 
 To Resume 
