@@ -3,28 +3,8 @@
 # PLEASE INSTALL REQUIRED PACKAGES
 npm i express yargs fs request
 
-# TO RUN WITH ARGS:
--d : Main directory name [ to store html file level wise ] <br/>
--u : Seed Url. <br/>
--l : Url's Log file name [ will be found as Maindir/logfile ] <br />
--L : Link Limit [ total number of unique links to process = UNIQUE_LINKS(DROPPED + DOWNLOADED) ] <br/>
--M : Milli Seconds. <br/>
--C : Total Requests to send in given Milli Seconds. <br/>
--R : Resume Dir. <br/>
-
-# EXAMPLES
-To Crawl With given url
-> node server.js -d MainDirName -u www.example.com
-
-To Set Milli Seconds and Request Count.
-> node server.js -d MainDirName -u www.example.com -M 10000 -C 6 <br />
-this sets the crawler to send 6 requests in 10000 milliseconds (= 10 seconds)
-
-To Resume 
-> node server.js -R MainDirName
-# NOTE: 
-1. To resume the config.json file must exist in the named directory.
-2. When resuming args like (-u, -l, -d) are ignored and only args (-L, -C, -M) can be processed
+# PLEASE VISIT FOLLOWING ROUTE TO START CRAWLING
+> examplehost:3000/start_session/
 
 # TO RUN WITH DEFAULT SETTINGS
 cmd: node server.js
