@@ -4,13 +4,13 @@
 npm i express yargs fs request
 
 # TO RUN WITH ARGS:
--d : Main directory name [ to store html file level wise ]
--u : Seed Url.
+-d : Main directory name [ to store html file level wise ] <br/>
+-u : Seed Url. <br/>
 -l : Url's Log file name [ will be found as Maindir/logfile ]
--L : Link Limit [ total number of unique links to process = UNIQUE_LINKS(DROPPED + DOWNLOADED) ]
--M : Milli Seconds.
--C : Total Requests to send in given Milli Seconds.
--R : Resume Dir.
+-L : Link Limit [ total number of unique links to process = UNIQUE_LINKS(DROPPED + DOWNLOADED) ] <br/>
+-M : Milli Seconds. <br/>
+-C : Total Requests to send in given Milli Seconds. <br/>
+-R : Resume Dir. <br/>
 
 # EXAMPLES
 To Crawl With given url
