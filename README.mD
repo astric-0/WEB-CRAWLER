@@ -6,7 +6,7 @@ npm i express yargs fs request
 # TO RUN WITH ARGS:
 -d : Main directory name [ to store html file level wise ] <br/>
 -u : Seed Url. <br/>
--l : Url's Log file name [ will be found as Maindir/logfile ]
+-l : Url's Log file name [ will be found as Maindir/logfile ] <br />
 -L : Link Limit [ total number of unique links to process = UNIQUE_LINKS(DROPPED + DOWNLOADED) ] <br/>
 -M : Milli Seconds. <br/>
 -C : Total Requests to send in given Milli Seconds. <br/>
