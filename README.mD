@@ -23,7 +23,7 @@ this sets the crawler to send 6 requests in 10000 milliseconds (= 10 seconds)
 To Resume 
 > node server.js -R MainDirName
 # NOTE: 
-1. to resume the .config file must exist in the named directory.
+1. to resume the config.json file must exist in the named directory.
 2. When resuming args like (-u, -l, -d) are ignored and only args (-L, -C, -M) can be processed
 
 # TO RUN WITH DEFAULT SETTINGS
